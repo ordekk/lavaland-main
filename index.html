@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>LAVALAND</title>
+	<meta name="description" content="BUILDING THE METAVERSE,ONE BLOCK AT A TIME">
+	<meta name="keywords" content="Site keys">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="theme-color" content="#fff">
+	<meta name="msapplication-navbutton-color" content="#fff">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+	<meta name="theme-color" content="#fff">
+	<meta property="og:title" content="LAVALAND" />
+	<meta property="og:description" content="BUILDING THE METAVERSE,ONE BLOCK AT A TIME" />
+	<link rel="manifest" href="manifest.html" crossorigin="use-credentials">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/metavpad%20256x256.png">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="email=no" />
+	<meta name="format-detection" content="date=no" />
+	<!-- css -->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body class="body loaded">
+
+	<div class="icon-load">
+		<div class="sk-folding-cube">
+			<div class="sk-cube1 sk-cube"></div>
+			<div class="sk-cube2 sk-cube"></div>
+			<div class="sk-cube4 sk-cube"></div>
+			<div class="sk-cube3 sk-cube"></div>
+		</div>
+	</div>
+
+	<div class="main-wrapper">
+		<header class="header">
+			<div class="wrapper">
+		        <a href="#" class="header__logo"><img src="img/logo%402x.png" alt="logo"></a>
+		        <ul class="header__menu">
+		            <li><a href="#features">Features</a></li>
+		            <li><a href="#how-it-works">How it works</a></li>
+		            <li><a href="#token-info">Token info</a></li>
+		            <li><a href="#about-us">About us</a></li>
+		            <li><a href="#social-media">Social media</a></li>
+					<li><button class="btn" id="btn-metamask" style="left: 670px; top: -15px;" onclick="connectMetamask();">Connect Wallet</button></li>
+		        </ul>
+		    </div>
+		</header>
+
+		<section class="sect1">
+			<div class="wrapper">
+				<div class="sect1__big-ttl wow fadeInUp" data-wow-delay=".3s">Lavaland</div>
+				<div class="sect1__big-ttl2 wow fadeInUp" data-wow-delay=".4s">Lorem ipsum dolor sit amet <br/>Lorem ipsum dolor sit amet</div>
+				<div class="sect1__descr wow fadeInUp" data-wow-delay=".5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+			</div>
+				<div class="sect1_paymnet wow fadeInuU" data-wow-delay=".6s">
+				<div class="sect1_buybtn wow fadeInUp" data-wow-delay=".6s">
+					<button class="btn btn-outline-warning" style="z-index: 1;"  id="btn-button" onclick="donateTokens();">BUY</button>
+				</div>
+				<div class="sect1_input wow fadeInUp" data-wow-delay=".6s">
+					<input class="field" style="z-index: 1;"  id="presaleAmount" placeholder="Enter the amount of BNB"></input>
+				</div>
+				<div class="sect1_timer wow fadeInUp" data-wow-delay=".7s">
+					<p id="timer" style="position:relative; left: 200px; top: 165px; font-size: 60px; z-index: 0;"></p>
+				</div>
+				<div class="sect1_timertext wow fadeInUp" data-wow-delay=".7s">
+				
+				<p style="position:relative; left: 200px; top: 55px; font-size: 50px; font-family: Bebas Neue, cursive; letter-spacing: 3px; z-index: 0">Private Sale Ends In</p>
+			</div>
+			</div>
+		</section>
+
+		<section class="sect2">
+			<div class="wrapper">
+				<div class="sect2__ttl main-ttl wow fadeInUp">Lorem ipsum dolor</div>
+				<div class="sect2__text">
+					<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+					<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+				</div>
+				<div class="sect2__ttl main-ttl wow fadeInUp">Lorem ipsum dolor <br>sit amet</div>
+				<div class="sect2__row">
+					<div class="sect2__col">
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+					</div>
+					<div class="sect2__col">
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sect3" id="features">
+			<div class="wrapper">
+				<div class="sect3__ttl main-ttl wow fadeInUp">lorem ipsum dolor sit amet</div>
+				<div class="sect3__row">
+					<div class="sect3__col">
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat. </p>
+					</div>
+					<div class="sect3__col">
+						<p class=" wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</p>
+						<div class="sect3__ttl2 wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sect4">
+			<div class="wrapper">
+				<div class="sect4__ttl main-ttl wow fadeInUp">Lorem ipsum dolor sit amet</div>
+				<div class="sect4__row">
+					<div class="sect4__col wow fadeIn" data-wow-delay=".1s">
+						<div class="sect4__t">Lorem ipsum</div>
+						<div class="sect4__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+					<div class="sect4__col wow fadeIn" data-wow-delay=".2s">
+						<div class="sect4__t">Lorem ipsum</div>
+						<div class="sect4__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+					<div class="sect4__col wow fadeIn" data-wow-delay=".3s">
+						<div class="sect4__t">Lorem ipsum</div>
+						<div class="sect4__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+					<div class="sect4__col wow fadeIn" data-wow-delay=".4s">
+						<div class="sect4__t">Lorem ipsum</div>
+						<div class="sect4__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+					<div class="sect4__col wow fadeIn" data-wow-delay=".5s">
+						<div class="sect4__t">Lorem ipsum</div>
+						<div class="sect4__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sect5">
+			<div class="wrapper">
+				<div class="sect5__ttl main-ttl wow fadeInUp">Lorem ipsum dolor</div>
+				<div class="sect5__text wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+			</div>
+		</section>
+
+		<section class="sect6" id="how-it-works">
+			<div class="wrapper">
+				<div class="sect6__ttl main-ttl wow fadeInUp">Lorem ipsum dolor</div>
+				<div class="sect6__t2 wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+				<div class="sect6__row">
+					<div class="sect6__col wow fadeInUp">
+						<div class="sect6__col-t">Lorem ipsum dolor</div>
+						<ul>
+							<li>Lorem ipsum</li>
+							<li>Lorem ipsum</li>
+						</ul>
+					</div>
+					<div class="sect6__col wow fadeInUp">
+						<div class="sect6__col-t">Lorem ipsum dolor</div>
+						<ul>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sect7">
+			<div class="wrapper">
+				<div class="sect7__ttl main-ttl wow fadeInUp">Lorem ipsum</div>
+				<div class="sect7__descr wow fadeInUp">The first deflationary launchpad for MetaVerse</div>
+				<div class="sect7__row">
+					<div class="sect7__col wow fadeInUp" data-wow-delay=".1s">
+						<div class="sect7__t">Lorem ipsum <br>dolor sit amet</div>
+						<div class="sect7__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat</div>
+					</div>
+					<div class="sect7__col wow fadeInUp" data-wow-delay=".2s">
+						<div class="sect7__t">Lorem ipsum  <br>dolor sit amet</div>
+						<div class="sect7__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+					<div class="sect7__col wow fadeInUp" data-wow-delay=".3s">
+						<div class="sect7__t">Lorem ipsum <br>dolor sit amet</div>
+						<div class="sect7__d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi quis egestas arcu. Maecenas iaculis mauris quis lectus sollicitudin, ac ullamcorper ex volutpat.</div>
+					</div>
+				</div>
+				<div class="sect7__row2">
+					<div class="sect7__col2">
+						<div class="ttl">Public price</div>
+						<div class="item">$0.0026</div>
+					</div>
+					<div class="sect7__col2">
+						<div class="ttl">Maximum supply</div>
+						<div class="item">1,000,000,000</div>
+					</div>
+					<div class="sect7__col2">
+						<div class="ttl">Supply at listing</div>
+						<div class="item">30,000,000</div>
+					</div>
+					<div class="sect7__col2">
+						<div class="ttl">Initial Mcap</div>
+						<div class="item">$78,000 USD</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sect8" id="token-info">
+			<div class="wrapper">
+				<div class="sect8__ttl main-ttl wow fadeInUp">Tokenomics</div>
+				<div class="sect8__row">
+					<div class="sect8__col wow fadeInUp" data-wow-delay=".1s">
+						<div class="item">
+							<span>Private Sale</span>
+							<p>5%</p>
+						</div>
+						<div class="item">
+							<span>Public Sale</span>
+							<p>10%</p>
+						</div>
+						<div class="item">
+							<span>Liquidity</span>
+							<p>3%</p>
+						</div>
+					</div>
+					<div class="sect8__col wow fadeInUp" data-wow-delay=".2s">
+						<div class="item">
+							<span>In-Game Rewards</span>
+							<p>45%</p>
+						</div>
+						<div class="item">
+							<span>Advisors</span>
+							<p>10%</p>
+						</div>
+						<div class="item">
+							<span>Marketing</span>
+							<p>8%</p>
+						</div>
+					</div>
+					<div class="sect8__col wow fadeInUp" data-wow-delay=".3s">
+						<div class="item">
+							<span>Stake Rewards</span>
+							<p>10%</p>
+						</div>
+						<div class="item">
+							<span>Team</span>
+							<p>9%</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="sect13" id="social-media">
+			<div class="wrapper">
+				<div class="sect13__ttl main-ttl wow fadeInUp">LavaLand Socials</div>
+				<div class="sect13__row wow fadeInUp">
+					<div class="sect13__item">
+						<p>Twitter</p>
+						<a href="https://twitter.com/LavaLandGame" target="_blank">
+							<img src="img/icons/website-icon.svg" alt="icon">
+							<span>twitter.com/LavaLandGame</span>
+						</a>
+					</div>
+					<div class="sect13__item">
+						<p>Telegram Announcement</p>
+						<a href="https://t.me/lavalandann" target="_blank">
+							<img src="img/icons/website-icon.svg" alt="icon">
+							<span>t.me/lavalandann</span>
+						</a>
+					</div>
+					<div class="sect13__item">
+						<p>Telegram Community</p>
+						<a href="https://t.me/xx" target="_blank">
+							<img src="img/icons/website-icon.svg" alt="icon">
+							<span>t.me/xx</span>
+						</a>
+					</div>
+					<div class="sect13__item">
+						<p>Discord</p>
+						<a href="https://t.me/xx" target="_blank">
+							<img src="img/icons/website-icon.svg" alt="icon">
+							<span>t.me/xx</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="footer wow fadeInUp">
+			<div class="wrapper">
+		        <a href="#" class="header__logo"><img src="img/logo%402x.png" alt="logo"></a>
+		        <ul class="header__menu">
+		            <li><a href="#features">Features</a></li>
+		            <li><a href="#how-it-works">How it works</a></li>
+		            <li><a href="#token-info">Token info</a></li>
+		            <li><a href="#about-us">About us</a></li>
+		            <li><a href="#social-media">Social media</a></li>
+		        </ul>
+		    </div>
+		</footer>
+	</div>
+
+	<script src="js/libs.min.js"></script>
+	<script src="js/common.min.js"></script>
+	<script src="js/web3.js"></script>
+	<script src="js/connect.js"></script>
+	<script src="js/timer.js"></script>
+</body>
+</html>
